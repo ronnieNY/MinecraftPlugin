@@ -1,0 +1,14 @@
+name: LevelPlugin
+version: '${project.version}'
+main: com.tbz.levelplugin.LevelPlugin
+api-version: 1.18
+authors: [ Ronnie ]
+description: This plugin adds a new level system beside the normal levels in minecraft. A higher level improves your skills and you can receive gifts, when leveling up.
+
+commands:
+  level:
+    permission: com.tbz.levelplugin
+  chickens:
+    permission: com.tbz.levelplugin
+  addxp:
+    permission: com.tbz.levelplugin
